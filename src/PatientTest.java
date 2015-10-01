@@ -47,7 +47,7 @@ public  class PatientTest  {
 		
 		patient.getPatientInfo();
 		
-		System.out.printf("The patient \" %s %s \" with ID#%s lives in %s , %s ,%s ,%s", patient.getFirstName(), patient.getLastName(), patient.getPatientId(), patient.getAddress(), patient.getCity(), patient.getProvince(), patient.getPostalCode());
+		System.out.printf("The patient \" %s %s \" with ID#%s lives in %s , %s ,%s and the postal code is %s.", patient.getFirstName(), patient.getLastName(), patient.getPatientId(), patient.getAddress(), patient.getCity(), patient.getProvince(), patient.getPostalCode());
 		
 	}
 

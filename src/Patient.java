@@ -80,6 +80,6 @@ public class Patient {
 		}
 		
 		public void getPatientInfo() {
-			System.out.printf("%s %s's Patient Information: \n", getFirstName(), getLastName());
+			System.out.printf("%s %s's Patient Information:\n", getFirstName(), getLastName());
 		}
 }
