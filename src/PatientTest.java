@@ -15,6 +15,8 @@ public  class PatientTest  {
 		// Prompt user for First Name
 		System.out.print("Enter your First Name: ");
 		String myFirstName = input.nextLine();
+		
+		// Prompt user for Last Name
 		System.out.print("Enter your Last Name: ");
 		String myLastName = input.nextLine();
 		
