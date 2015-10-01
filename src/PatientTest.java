@@ -5,11 +5,12 @@ public  class PatientTest  {
 	public static Patient patient; // reference to the Patient class
 	public static void main(String[] args) {
 		System.out.println("Program Started...");
-		Scanner input= new Scanner(System.in);
 		
+		Scanner input = new Scanner(System.in);
+
 		// Prompt user for Patient Id
 	    System.out.print("Enter your Patient Id: ");
-		String myPatientId= input.nextLine();
+		String myPatientId = input.nextLine();
 		
 		// Prompt user for First Name
 		System.out.print("Enter your First Name: ");
