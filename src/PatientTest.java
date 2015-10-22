@@ -4,8 +4,7 @@ import java.util.Scanner;
 public  class PatientTest  {
 	public static Patient patient; // reference to the Patient class
 	public static void main(String[] args) {
-		System.out.println("Program Started...");
-		
+			
 		Scanner input = new Scanner(System.in);
 
 		// Prompt user for Patient Id
